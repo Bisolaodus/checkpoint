@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSS Websites</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jacquard+24&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oxygen:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan:ital@0;1&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: "#da373d",
+            simple: "#00bcd4",
+            complex: "#3f51b5",
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<body>
+  <!-- Navigations and background image  -->
+    <div class=" px-20 py-5 font-bold text-green-600  w-[100vw] h-[100vh] bg-[url('https://images.unsplash.com/photo-1458442310124-dde6edb43d10?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aGlraW5nfGVufDB8fDB8fHww')] bg-center bg-cover bg-no-repeat relative">
+      <!-- navbar start  -->
+        <nav class="flex justify-between bg-transparent">
+           <img src="images/loho_png.jpg">
+           <!-- <h3 class="hover:text-complex">BSS</h3> -->
+            <div class="hidden md:flex">
+                <div class="ml-10 text-sm capitalize   hover:text-simple">Home</div>
+                <div class="ml-10 text-sm capitalize   hover:text-simple">Destinations</div>
+                <div class="ml-10 text-sm capitalize   hover:text-simple">Tours</div>
+                <div class="ml-10 text-sm capitalize   hover:text-simple">Contact</div>
+            </div>
+        </nav>
+        <!-- navends  -->
+
+<!-- Hero section  -->
+<div class="text-white mt-28 max-w-lg">
+    <h1 class=" text-6xl font-bold leading-normal">Explore Dream<br><span class="text-[#767676]">Destination</span></h1>
+      <p>
+        <h3>Making your vacation dreams a reality since 1990</h3>
+        </p>
+       <!-- Button section -->
+    <div class="mt-10">
+      <a href="#" class="bg-orange-300 rounded-3x1 py-2 px-4 font-medium inline-block mr-15  hover:bg-transparent hover:border-orange-300 hover:text-white duration-300 hover:border border border-transparent">Choose Your Tour</a>
+      <a href="#">Book Now <span class="text-lg inline-block rotate-90"><ion-icon name="send"></ion-icon></span></a>
+      </div>
+      <!-- background image  -->
+      </div>
+        <img src="https://images.unsplash.com/photo-1569832856136-5f42d6a3ed67?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fE1vdW50JTIwS2lsaW1hbmphcm8lM0F8ZW58MHx8MHx8fDA%3D" class="w-sm xl:w-1/2 xl:absolute bottom-20 right-20">
+    </div>
+
+<!-- Destination Section & Tour section -->
+    <div>
+    <div class="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+      <div class="w-full shadow-xl shadow-gray-400 rounded-xl p-4 hover:scale-105 duration-300 cursor-pointer text">
+        <!-- display images  -->
+        <img src="https://plus.unsplash.com/premium_photo-1682091707727-33174f11d94d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8R3llb25nYm9rZ3VuZyUyMFBhbGFjZXxlbnwwfHwwfHx8MA%3D%3D" alt="" srcset="" width="400px" height="100px">
+        <!-- Tour section details -->
+        <span class="rating">⭐⭐⭐⭐⭐</span>
+        <h2>Gyeongbokgung Palace</h2>
+        <p class="cost">$1,870/ Per Person</p>
+        <div class="bg-stone-300 rounded-3x1 py-2 px-4 font-medium inline-block mr-15  hover:bg-transparent hover:border-stone-300 hover:text-black duration-300 hover:border border border-transparent">
+         <a href="#"><p class="time">⏱ 3 Days</p></a>  
+          <a href="#"><p class="location">✈ Seoul, South Korea</p></a> 
+        </div>
+        
+      </div>  
+        <div class="w-full shadow-xl shadow-gray-400 rounded-xl p-4 hover:scale-105 duration-300 cursor-pointer">
+        <!-- display images  -->
+        <img src="https://plus.unsplash.com/premium_photo-1683120756391-5eded4fd1718?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""  srcset="" width="400px" height="100px">
+     <!-- Tour section details -->
+        <span class="rating">⭐⭐⭐⭐⭐</span>
+        <h2>Eiffel tower</h2>
+        <p class="cost">$2,115/ Per Person</p>
+        <div class="bg-stone-300 rounded-3x1 py-2 px-4 font-medium inline-block mr-15  hover:bg-transparent hover:border-stone-300 hover:text-black duration-300 hover:border border border-transparent">
+          <a href="#"><p class="time">⏱ 3 Days</p></a>
+          <a href="#"><p class="location">✈ Paris, France </p></a>
+        </div>
+
+      </div>
+      <div class="w-full shadow-xl shadow-gray-400 rounded-xl p-4 hover:scale-105 duration-300 cursor-pointer">
+        <!-- display images  -->
+        <img src="https://plus.unsplash.com/premium_photo-1664304370557-233bccc0ac85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TW91bnQlMjBLaWxpbWFuamFybyUzQXxlbnwwfHwwfHx8MA%3D%3D" alt="" srcset="" width="400px" height="100px">
+      <!-- Tour section details -->
+        <span class="rating">⭐⭐⭐⭐⭐</span>
+        <h2>Mount Kilimanjaro </h2>
+        <p class="cost">$1,200/ Per Person</p>
+        <div class="bg-stone-300 rounded-3x1 py-2 px-4 font-medium inline-block mr-15  hover:bg-transparent hover:border-stone-300 hover:text-black duration-300 hover:border border border-transparent">
+          <a href="#"><p class="time">⏱ 3 Days</p></a>
+          <a href="#"><p class="location">✈ Tanzania </p></a>
+        </div>
+      </div>
+
+      <!-- brief descriptions  -->
+      <div><h2 class="px-10 py-5 font-bold text-black-600 ">GYEONGBOKGUNG PALACE</h2>Gyeongbokgung Palace is the largest and most striking of the 5 grand palaces built during the Joseon dynasty. Built in 1395 by King Taejo, this iconic landmark lets you experience life in Joseon-era Korea via free guided tours, re-enactments of royal rituals, and extensive displays of artifacts and period costumes.</div>
+      <!-- brief descriptions  -->
+      <div><h2 class="px-10 py-5 font-bold text-black-600 ">EIFFEL TOWER</h2>The Eiffel Tower has 1,665 stairs and three viewing platforms. Nearly 50 miles of electric cables cover the structure. There are 120 antennas atop the Eiffel Tower. The tower is made of 18,000 iron pieces bolted together by over 2.5 million rivets.</div>
+      <!-- brief descriptions  -->
+      <div><h2 class="px-10 py-5 font-bold text-black-600 ">MOUNT KILIMANJARO</h2>Located in Tanzania, Mount Kilimanjaro is the African continent's highest peak at 5,895 meters (19,340 feet). The majestic mountain is a snow-capped volcano. Located in Tanzania, Mount Kilimanjaro is Africa's tallest mountain at about 5,895 meters (19,340 feet)</div>
+     </div>
+
+     <!-- Button section -->
+     <p class="mt-10 p-8">
+      <a href="#" class="bg-blue-600 rounded-3x1 py-2 px-4 font-medium inline-block mr-15  hover:bg-transparent hover:border-blue-600 hover:text-black duration-300 hover:border border border-transparent">Learn More</a></p>
+    </div>
+    
+    <!-- Contact Form  -->
+    <div class="w-full max-w-xs m-auto">
+      <form class="bg-gray-300
+       shadow-md rounded px-8 pt-6 pb-8 mb-4">
+        <div class="mb-4">
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+            Username
+          </label>
+          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username">
+        </div>
+        <div class="mb-6">
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+            Password
+          </label>
+          <input class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="******************">
+          <p class="text-red-500 text-xs italic">Please choose a password.</p>
+        </div>
+        <div class="flex items-center justify-between">
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+            Sign In
+          </button>
+          <a class="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" href="#">
+            Forgot Password?
+          </a>
+        </div>
+        <!-- Contact Form ends  -->
+          
+        </div>
+      </form>
+    </div>
+
+    <!-- Footer start  -->
+    <footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+      <!-- Copyright information section -->
+      <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://bsstour.com/" class="hover:underline">BSS Tour™</a>. All Rights Reserved.
+      </span>
+      <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+          <li>
+              <a href="#" class="hover:underline me-4 md:me-6">About</a>
+          </li>
+          <li>
+              <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+          </li>
+          <li>
+              <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+          </li>
+          <li>
+              <a href="https://bsstour.com/`09099370000" class="hover:underline">Contact</a>
+          </li>
+      </ul>
+      </div>
+
+       <!-- Icon connection section  -->
+       <div class="flex items-center justify-between m-auto max-w-[300px]">
+        <div class="rounded-full shadow-lg shadow-stone-600 p-4 cursor-pointer hover:scale-105 ease-in duration-300"> 
+            <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+        <div class="rounded-full shadow-lg shadow-stone-600 p-4 cursor-pointer hover:scale-105 ease-in duration-300" >
+            <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+        </div>
+        <div class="rounded-full shadow-lg shadow-stone-600 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
+            <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+        </div>
+        <div class="rounded-full shadow-lg shadow-stone-600 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
+            <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+        </div>
+  </footer>
+  <!-- Footer ends  -->
+</body>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</html>
